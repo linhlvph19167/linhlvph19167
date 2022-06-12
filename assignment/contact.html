@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="favicon.svg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Vite App</title>
+    <!-- Font google -->
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Heebo:wght@100;200;300;400;500;600;700;800;900&display=swap"
+		rel="stylesheet">
+	<!-- tailwindcss -->
+	<script src="https://cdn.tailwindcss.com"></script>
+	<!-- css -->
+	<link rel="stylesheet" href="style.css">
+	<!-- fontawesome -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+</head>
+<body>
+    <header>
+		<div class=" mx-auto max-w-4xl">
+			<div class="grid justify-items-stretch py-4">
+				<ul class="justify-self-start md:justify-self-end py-4  hidden md:flex justify-end md:space-x-16" id="main-menu">
+					<li><a class="p-4 text-2xl font-medium body leading-7 hover:text-[#FF6464]" href="blog.html">Blog</a>
+					</li>
+					<li><a class="p-4 text-2xl font-medium body leading-7 hover:text-[#FF6464]"
+							href="works.html">Works</a></li>
+					
+					<li><a class="p-4 text-2xl font-medium bodyleading-7 hover:text-[#FF6464]" href="./contact.html">Contact</a></li>
+				</ul>
+				<div class="justify-self-end">
+					<button id="button"
+					class="text-4xl inline-block md:hidden text-right ml-auto ">
+					<i class="fa-solid fa-bars"></i>
+				</button>
+				</div>
+			</div>
+		</div>
+	</header>
+    <section>
+        <div class="max-w-4xl mx-auto">
+            <h2 class="body font-bold text-[34px] leading-[50px] pb-4 ">Designing Dashboards with <br> usability in mind</h2>
+            <a href="" class="border bg-[#FF7C7C] w-[62px] h-[25px] rounded-2xl text-white px-2">2020</a> <a href="" class="body not-italic font-normal text-[20px] leading-[29px] px-[17px]">Dashboard, User Experience Design</a>
+            <p class=" body not-italic font-normal text-[16px] leading-[24px] pt-4">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <img src="images/Rectangle 4.png" alt="" class="pt-[46px] w-[681px] h-[460px]">
+        </div>
+        <div class="max-w-4xl mx-auto">
+            <h2 class="body not-italic font-medium text-[30px] leading-[60px] pt-[54px] ">Heading 1</h2>
+            <h3 class="body not-italic font-medium text-[24px] leading-[60px]">Heading 2</h3>
+            <p class="body font-normal not-italic text-[16px] leading-[24px] pt-4 pb-[30px]">Amet minim mollit non deserunt ullamco est sit aliqua dolor do amet sint. Velit officia <br> consequat duis enim velit mollit. Exercitation veniam consequat sunt nostrud amet.</p>
+            <img src="images/Rectangle 5.png" alt="" class="pb-[27px]">
+            <img src="images/Rectangle 6.png" alt="" class="pb-[27px]">
+        </div>
+    </section>
+    <section>
+        <div class="max-w-4xl h-[182px] mx-auto pt-20">
+            <div class="flex justify-center mb-6">
+				<i class="fa-brands fa-facebook-square text-[30px] px-4"></i>
+				<i class="fa-brands fa-instagram text-[30px] px-4"></i>
+				<i class="fa-brands fa-twitter text-[30px] px-4" ></i>
+				<i class="fa-brands fa-invision text-[30px] px-4"></i>
+			</div>
+            <p class="text-center body font-normal text-[14px] leading-[20.56px]">Copyright ©2020 All rights reserved
+            </p>
+        </div>
+    </section>
+    <script src="./main.js"></script>
+</body>
+</html>
